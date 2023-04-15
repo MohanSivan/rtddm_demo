@@ -9,7 +9,7 @@ import plotly.graph_objs as go
 import pandas as pd
 import numpy as np
 #import dash_daq as daq
-from pyorbital.orbital import Orbital
+#from pyorbital.orbital import Orbital
 
 #Read_Excell file_formet with Add Column Names:
 col_names=['Description', 'Machine', 'Readings', 'Datetime']
