@@ -8,7 +8,7 @@ import plotly.express as px
 import plotly.graph_objs as go
 import pandas as pd
 import numpy as np
-import dash_daq as daq
+#import dash_daq as daq
 from pyorbital.orbital import Orbital
 
 #Read_Excell file_formet with Add Column Names:
