@@ -13,8 +13,8 @@ import numpy as np
 
 #Read_Excell file_formet with Add Column Names:
 col_names=['Description', 'Machine', 'Readings', 'Datetime']
-#df1 = pd.read_excel(r"\\ebsserver\A&R\RTDDM\RTDataCapture(01).xlsx",names=col_names, header=None)
-df1 = pd.read_excel('RTDataCapture(01).xlsx',names=col_names, header=None)
+df1 = pd.read_excel(r"\\ebsserver\A&R\RTDDM\RTDataCapture(01).xlsx",names=col_names, header=None)
+#df1 = pd.read_excel('RTDataCapture(01).xlsx',names=col_names, header=None)
 #All Machine Count:
 Total_Machine_Counts = df1.Machine.nunique()
 #print(df1.Machine.nunique())
