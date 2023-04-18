@@ -96,7 +96,7 @@ df.to_excel(r'RTTDM_Data\.%d%Y%H%.xlsx', index=False)
 
 
 app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
-
+server = app.server
 app.layout=html.Div([
     html.Div([
         html.Div([
